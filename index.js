@@ -24,7 +24,7 @@ app.use(cookieParser());
 
 const corsOptions = {
   credentials: true,
-  origin: "*",
+  origin: "https://main--resilient-meerkat-eeb593.netlify.app",
 };
 app.use(cors(corsOptions));
 
